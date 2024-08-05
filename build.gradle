@@ -23,6 +23,8 @@ dependencies {
     implementation 'com.buschmais.jqassistant.core:report:' + project.jqaversion
     implementation 'com.buschmais.jqassistant.plugin:common:' + project.jqaversion
     implementation 'com.buschmais.jqassistant.core:store:' + project.jqaversion
+    implementation 'org.apache.poi:poi:5.2.0'
+    implementation 'org.apache.poi:poi-ooxml:5.2.0'
 
     testImplementation 'com.buschmais.jqassistant.core:test:' + project.jqaversion
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.2'
